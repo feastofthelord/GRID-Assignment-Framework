@@ -5,9 +5,9 @@ form = cgi.FieldStorage()
 
 
 #Get data from forms
-firstName = form.getvalue('first')
-lastName = form.getvalue('last')
+firstName = form.getvalue('firstname')
+lastName = form.getvalue('lastname')
 address = form.getvalue('e-mail')
 phone = form.getvalue('phone')
 summary = form.getvalue('summary')
-attachments = form.getvalue('attachments')
+attachments = form.getvalue('attachment')
